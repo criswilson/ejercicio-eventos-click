@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: rgb(5, 154, 199);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form {
+    .inputs {
+      height: 70px;
+      border-radius: 6px;
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    .inputContainer {
+      .typeUsername {
+        font-family: "Nunito", sans-serif;
+        background-color: white;
+        padding-left: 12px;
+        width: 550px;
+      }
+    }
+    .search {
+      background-color: rgb(79, 209, 248);
+      color: rgb(2, 91, 119);
+      margin-top: 30px;
+      width: 562px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

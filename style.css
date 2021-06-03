@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #059ac7;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .form .inputs {
+  height: 70px;
+  border-radius: 6px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.container .form .inputContainer .typeUsername {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+  padding-left: 12px;
+  width: 550px;
+}
+.container .form .search {
+  background-color: #4fd1f8;
+  color: #025b77;
+  margin-top: 30px;
+  width: 562px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
