@@ -34,5 +34,11 @@
   font-weight: 600;
   cursor: pointer;
 }
+.container .lista {
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+}
 
 /*# sourceMappingURL=style.css.map */
